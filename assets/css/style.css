@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container-principal{
+    display: flex;
+    min-height: 100vh;
+    border: 1px solid red;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-height: 100vh;
+    border: 1px solid blue;
+
+}
+.encabezado-menu {
+    display: flex;
+    align-content: space-between;
+    align-items: left;
+    border-bottom:3px solid #E8EBE4 ;
+    justify-content: space-between;
+    border: 1px solid red;
+ 
+    
+}
+.maria{
+    border: 1px solid red;
+    display: flex;
+    
+}
+.texto-maria{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-maria{
+    width: 80px;
+    border-radius: 100%;
+    border: 1px solid red;
+    
+    
+}
+.icons{
+    display: flex;
+    border: 1px solid red;
+}
+.boton{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin-top: 50px;
+    border-bottom:3px solid #E8EBE4 ;
+    border: 1px solid red;
+   
+}
+.boton-chat{
+    all: unset;
+    background-color: #A491D2;
+    width: 200px;
+    height: 10px;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    min-height: 100vh;
+    border: 3px solid green;
+
+}
+.info-contenido{
+    text-align: center;
+    border: 1px solid red;
+    
+}
+.contenido h1{
+    
+}
