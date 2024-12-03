@@ -1,94 +1,277 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-.container-principal{
-    display: flex;
-    min-height: 100vh;
-    border: 1px solid red;
-
+.container-principal {
+  display: flex;
+  min-height: 100vh;
 }
 
-.menu{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    min-height: 100vh;
-    border: 1px solid blue;
-
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  min-height: 100vh;
+  border-right: 3px solid#e8ebe4;
 }
 .encabezado-menu {
-    display: flex;
-    align-content: space-between;
-    align-items: left;
-    border-bottom:3px solid #E8EBE4 ;
-    justify-content: space-between;
-    border: 1px solid red;
- 
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 3px solid #e8ebe4;
 }
-.maria{
-    border: 1px solid red;
-    display: flex;
-    
+.maria {
+  display: flex;
+  margin: 10px;
 }
-.texto-maria{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid red;
-    align-items: center;
-    justify-content: center;
+.texto-maria {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
-.foto-maria{
-    width: 80px;
-    border-radius: 100%;
-    border: 1px solid red;
-    
-    
+.foto-maria {
+  width: 50px;
+  border-radius: 100%;
 }
-.icons{
-    display: flex;
-    border: 1px solid red;
+.icons {
+  display: flex;
+
+  width: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0.4;
 }
-.boton{
-    display: flex;
-    height: 100px;
-    align-items: center;
-    margin-top: 50px;
-    border-bottom:3px solid #E8EBE4 ;
-    border: 1px solid red;
-   
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #e8ebe4;
 }
-.boton-chat{
-    all: unset;
-    background-color: #A491D2;
-    width: 200px;
-    height: 10px;
-    padding: 50px;
-    margin: 20px;
-    text-align: center;
-    color: white;
-    border: 1px solid red;
+.boton-chat {
+  all: unset;
+  text-align: center;
+  background-color: #a491d2;
+  padding: 10px;
+  margin: 20px;
+  width: 15rem;
+  height: 3rem;
+  color: white;
 }
 
-.contenido{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    min-height: 100vh;
-    border: 3px solid green;
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  min-height: 100vh;
+}
+.info-contenido {
+  text-align: center;
+}
+.info-contenido h1 {
+  font-size: 45px;
+}
 
+.info-contenido p {
+  font-size: 16px;
 }
-.info-contenido{
-    text-align: center;
-    border: 1px solid red;
-    
+
+.contacto-1 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
 }
-.contenido h1{
-    
+
+.juanita {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-juanita {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-juanita {
+  width: 70px;
+  border-radius: 100%;
+}
+.contacto-2 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
+}
+
+.alberto {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-alberto {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-alberto {
+  width: 70px;
+  border-radius: 100%;
+}
+.contacto-3 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
+}
+
+.ignacio {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-ignacio {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-ignacio {
+  width: 70px;
+  border-radius: 100%;
+}
+.contacto-4 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
+}
+
+.cristian {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-cristian {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-cristian {
+  width: 70px;
+  border-radius: 100%;
+}
+.contacto-5 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
+}
+
+.maria-jose {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-maria-jose {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-maria-jose {
+  width: 70px;
+  border-radius: 100%;
+}
+.contacto-6 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
+}
+
+.gonzalo {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-gonzalo {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-gonzalo {
+  width: 70px;
+  border-radius: 100%;
+}
+.contacto-7 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
+}
+
+.juan-pablo {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-juan-pablo {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-juan-pablo {
+  width: 70px;
+  border-radius: 100%;
+}
+.contacto-8 {
+  display: flex;
+
+  border-bottom: 3px solid #e8ebe4;
+}
+
+.magdalena {
+  display: flex;
+  margin-left: 70px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.texto-magdalena {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+.foto-magdalena {
+  width: 70px;
+  border-radius: 100%;
 }
